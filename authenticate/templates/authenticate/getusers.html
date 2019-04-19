@@ -1,0 +1,7 @@
+{% extends 'authenticate/base.html' %}
+{% block title %} USERS {%endblock%}
+{% block body %}
+    {%for user in USERS%}
+        <div>{{ user }}</div>
+    {%endfor%}
+{%endblock%}
